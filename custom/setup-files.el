@@ -92,3 +92,22 @@
 ;; GROUP: Files -> Recentf ;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (require 'recentf-ext)
+
+;;;;;;;;;;;;;;;;;;;;;
+;; PACKAGE: ztree  ;;
+;;                 ;;
+;; GROUP: No group ;;
+;;;;;;;;;;;;;;;;;;;;;
+;; since ztree works with files and directories, let's consider it in
+;; group Files
+(require 'ztree-diff)
+(require 'ztree-dir)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;
+;; PACKAGE: vlf        ;;
+;;                     ;;
+;; GROUP: Files -> Vlf ;;
+;;;;;;;;;;;;;;;;;;;;;;;;;
+(require 'vlf-integrate)
+(setq vlf-application 'dont-ask) ;; automatically use vlf on large file,
+                                 ;; when the file exceed large-file-warning-threshold

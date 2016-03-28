@@ -8,10 +8,10 @@
 (add-to-list 'load-path "~/.emacs.d/custom/")
 
 ;; load your modules
-;;(require 'setup-applications)
-;;(require 'setup-communication)
+(require 'setup-applications)
+(require 'setup-communication)
 (require 'setup-convenience)
-;;(require 'setup-data)
+(require 'setup-data)
 ;;(require 'setup-development)
 (require 'setup-editing)
 (require 'setup-environment)
@@ -19,7 +19,7 @@
 (require 'setup-faces-and-ui)
 ;;(require 'setup-files)
 (require 'setup-help)
-;;(require 'setup-programming)
+(require 'setup-programming)
 ;;(require 'setup-text)
 ;;(require 'setup-local)
 

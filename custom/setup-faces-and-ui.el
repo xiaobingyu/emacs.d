@@ -25,11 +25,11 @@
 
 ;; change font to Inconsolata for better looking text
 ;; remember to install the font Inconsolata first
-(setq default-frame-alist '((font . "Inconsolata-11")))
+;; (setq default-frame-alist '((font . "Inconsolata-11")))
 ;; set italic font for italic face, since Emacs does not set italic
 ;; face automatically
-(set-face-attribute 'italic nil
-                    :family "Inconsolata-Italic")
+;; (set-face-attribute 'italic nil
+;;                     :family "Inconsolata-Italic")
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; PACKAGE: highlight-numbers         ;;
